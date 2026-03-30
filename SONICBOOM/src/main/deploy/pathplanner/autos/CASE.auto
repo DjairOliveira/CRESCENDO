@@ -1,0 +1,55 @@
+{
+  "version": "2025.0",
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "named",
+          "data": {
+            "name": "Intake"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Path1"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Posi2"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Turret30g"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 0.5
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Disparar"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Path2"
+          }
+        }
+      ]
+    }
+  },
+  "resetOdom": true,
+  "folder": null,
+  "choreoAuto": false
+}
