@@ -1,0 +1,2 @@
+Incrementando um valor na DashBoard atraves de um botão na DashBoard.
+Usando o mesmo botão da DashBoard para toglar uma variavel e exibila na DashBoard.
